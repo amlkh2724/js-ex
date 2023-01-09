@@ -22,12 +22,13 @@ console.log(power(2));
 // From function expressions to IIFE functions.
 // const squareRoot = a => Math.sqrt(a);
 
-((a) => {
+(function squareRoot(a) {
     return Math.sqrt(a)
-})(a)
+})()
 
     // const randomNumbers = (a, b) => Math.random() * (a - b) +
     //     b;
-    ((a, b) => {
+
+    (function randomNumbers(a, b) {
         return Math.random() * (a - b) + b
-    })(a)
+    })()
