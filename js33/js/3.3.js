@@ -1,6 +1,5 @@
 
 function percentageOfWorld1(population) {
-    // let value = prompt("Enter the value you wanted to return the population represents")
     const value = 7900
     let represents = (population / value) * 100
     return represents
