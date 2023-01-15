@@ -10,9 +10,11 @@
 
 const stringArr = () => {
     let arr2 = ["boo", "doooo", "hoo", "ro"]
-    for (let arr of arr2) {
-        console.log(arr.length);
+    let i = 0
+    while (i < arr2.length) {
+        console.log(arr2[i].length);
+        i++
     }
 }
 stringArr()
-// for of loop because its more easy to use and less to write alot of code
+// while because its more easy to use when we know what the count we wanna to use and less code to write
