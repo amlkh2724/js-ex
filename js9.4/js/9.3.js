@@ -1,26 +1,18 @@
-// const vibefunc=(N)=>{
-//     // let steps=""
-//     for(let i=0;i<N;i++){
-//      console.log("#");
-//     }
-// }
-// console.log(vibefunc(2));
+const postivenum = (N) => {
+    // N = '#'
 
-
-const vibefunc = (N) => {
     for (let i = 0; i < N; i++) {
-        let steps = ""
-        for (let j = 0; j < i; j++) {
-            steps += "#"
+        let str = ""
+        for (let j = 0; j < N; j++) {
+            if (j <= i) {
+                str += "#"
+            }
+            else {
+                str += " "
+            }
 
         }
-        for (let q = i; q < i; q++) {
-            steps += " "
-
-        }
-        console.log(steps);
+        console.log(str);
     }
-
 }
-vibefunc(6)
-// console.log(vibefunc(6));
+postivenum(4)
