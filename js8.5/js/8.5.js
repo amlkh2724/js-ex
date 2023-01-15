@@ -7,7 +7,7 @@
 const swapped = (swapMe) => {
     swap = {}
     for (let swapp in swapMe) {
-        swap[swapMe[obj]] = swapp
+        swap[swapMe[swapp]] = swapp
     }
     return swapp
 }
