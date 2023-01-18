@@ -44,15 +44,48 @@ const school = {
 // 1. A method called “findPerson” takes two arguments, a type
 // (either a student or teacher), and an id. It will return a
 // particular object of that person.
-const findPerson = (typestudent, id) => {
-    return typestudent.find(student => {
+
+
+const findperson = (studentss, id) => {
+    return studentss.find(student => {
         if (student.id === id) {
             return student
         }
     })
+
 }
 const students = school.students
-console.log(findPerson(students, 13));
+console.log(findperson(students, 13));
+
+
+
+
+// const findPerson = (typestudent, id) => {
+//     return typestudent.find(student => {
+//         if (student.id === id) {
+//             return student
+//         }
+//     })
+// }
+// const students = school.students
+// console.log(findPerson(students, 13));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // 2. A method called “assignStudent” that takes two
@@ -62,18 +95,22 @@ console.log(findPerson(students, 13));
 // are in the full capacity log to the console “Sorry, no
 // available teachers left”.
 
-function assignStudent(id, subject) {
 
-    let student = students.find(student => student.id === id);
-    let teacher = school.teachers.find(teacher => teacher.subjects.includes(subject) && teacher.capacityLeft > 0);
-    if (student && teacher) {
-        teacher.students.push(student);
-        teacher.capacityLeft--;
-        return teacher;
-    } else if (!teacher) {
-        console.log("Sorry, no available teachers left for this subject");
-    }
-}
 
-console.log(assignStudent(10, 'biology'));
+
+
+// function assignStudent(id, subject) {
+
+//     let student = students.find(student => student.id === id);
+//     let teacher = school.teachers.find(teacher => teacher.subjects.includes(subject) && teacher.capacityLeft > 0);
+//     if (student && teacher) {
+//         teacher.students.push(student);
+//         teacher.capacityLeft--;
+//         return teacher;
+//     } else if (!teacher) {
+//         console.log("Sorry, no available teachers left for this subject");
+//     }
+// }
+
+// console.log(assignStudent(10, 'biology'));
 // assignStudent(school, 10, 'history');
