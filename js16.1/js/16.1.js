@@ -16,7 +16,7 @@
 // console.log(funcA());;
 
 
-// answer:undedefined //
+// answer:undefined //
 
 
 
