@@ -57,7 +57,6 @@ function squareRoot(a) {
 console.log(squareRoot(10));
 
 // const randomNumbers = (a, b) => Math.random() * (a - b) + b;
-
 function randomNumbers(a, b) {
     return Math.random() * (a - b) + b
 }

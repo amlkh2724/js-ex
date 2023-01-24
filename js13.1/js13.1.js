@@ -12,5 +12,5 @@ console.log(sortarray);
 // 2. Sort the array of numbers from ascending to descending
 // order.
 
-const sortarrayrevers = numbers.sort((a, b) => b - a)
-console.log(sortarray);
+// const sortarrayrevers = numbers.sort((a, b) => b - a)
+// console.log(sortarray);
