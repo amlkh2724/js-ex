@@ -1,0 +1,25 @@
+section { 
+     text-align: center;
+    width: 600px;
+    height: 4rem;
+    margin: -350px auto; 
+    border: 2px solid red;
+}
+li{
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 30rem;
+    width: 20%;
+    background-color: red;
+    border: none;
+    height: 3rem;
+    color: white;
+}

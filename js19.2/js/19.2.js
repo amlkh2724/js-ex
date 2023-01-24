@@ -32,10 +32,10 @@ const users = [
 const list = document.createElement("ol");
 
 users.forEach(user => {
-    const listItem = document.createElement("li");
-    listItem.innerHTML = `${user.firstName} ${user.lastName}`;
-    listItem.setAttribute("data-id", user.id);
-    list.appendChild(listItem);
+    const personName = document.createElement("li");
+    personName.innerHTML = `${user.firstName} ${user.lastName}`;
+    personName.setAttribute("data-id", user.id);
+    list.appendChild(personName);
 });
 
 document.body.appendChild(list);

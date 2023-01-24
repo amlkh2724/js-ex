@@ -1,0 +1,27 @@
+#verifiCode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: 2px solid gray;
+    width: 10rem;
+    height: 4rem;
+
+}
+
+#first {
+    width: 8px;
+}
+
+#second {
+    width: 8px;
+}
+
+#third {
+    width: 8px;
+}
+
+#fourth {
+    width: 8px;
+}
