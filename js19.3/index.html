@@ -11,16 +11,18 @@
 
     <form id="verifiCode">
         <div class="forms">
-        <input type="text" id="first"/>
-        <input type="text" id="second"/>
-        <input type="text" id="third"/>
-        <input type="text" id="fourth"/>
-    </div>
+            <p class="coby">coby Code:</p>
+            <div class="text">1234</div>
+            <input type="text" id="first" maxlength="1" oninput="focusNext(this)">
+            <input type="text" id="second" maxlength="1" oninput="focusNext(this)">
+            <input type="text" id="third" maxlength="1" oninput="focusNext(this)">
+            <input type="text" id="fourth" maxlength="1" oninput="focusNext(this)">
+        </div>
         <div class="verfi">
-        <button>verifiCode</button>
-    </div>
-      </form>
-      
+            <button>verifiCode</button>
+        </div>
+    </form>
+    
     <script src="./js/19.3.js"></script>
 </body>
 </html>
