@@ -1,0 +1,10 @@
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  button {
+    padding: 14px 20px;
+    background-color: #080808;
+    color: white;
+  }
