@@ -1,15 +1,12 @@
-let click = true
 
-const img = document.querySelector('.height')
-
+let click = true;
+const img = document.querySelector('.lightbulb');
 function turnon() {
     if (click) {
-        img.classList.add("light")
+        img.src = "./assest/bulb-on.jpg";
         click=false
     } else {
-        img.classList.remove("light")
-        click = true
-
+        img.src = "./assest/bulb-off.jpg";
+        click = true;
     }
-
 }
