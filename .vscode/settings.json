@@ -10,5 +10,6 @@
         "nameday",
         "restaurantbill",
         "typeage"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
