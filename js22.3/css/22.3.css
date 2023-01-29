@@ -1,0 +1,50 @@
+/* Let's create a small game that the user needs to guess a
+random letter. Do not spend too much time styling the page.
+Here is a small demo of what you need to accomplish.
+Instructions:
+Generate a random letter and create the following logic
+depending if the user guessed the right letter or not:
+The user guessed it right
+● Display a message that the user was right.
+● The message should be in the color green.
+● Show the right letter to the user.
+● Display a message if he wants to play again with a confirm
+button.
+● If the user wants to play again reset the DOM as it was in
+the beginning.
+User guessed wrong
+● Display a message that the user got wrong.
+● The message should be in the color red.
+● Display all the letters the user has guessed
+● Users cannot type the same letter twice. If the user did so,
+display a message that he already guessed the letter.
+Constraints
+● A user can only guess a valid alphabetical letter. If the
+user types a non-alphabetical letter, display a message
+that this is not allowed.
+● When the game is finished, a user cannot guess a letter
+until he presses the confirm button to start a new game.
+● show guesses
+● If the letter already guessed message to them
+● If a letter is not the guess then display a message wrong
+guess
+● If a letter is you are correct message and display the right
+key then show an option to start the game again.
+● When asking for a new game, the user is not able to enter
+any more keys until he confirms. */
+body{
+    background-color: rgba(94, 131, 131, 0.557);
+}
+.display{
+    display: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+}
