@@ -1,0 +1,61 @@
+<!-- Question 1:
+In your own words what will this point to and why?
+(Note this is the global scope)
+console.log(this); // global obj becaute its inside global scope
+
+
+Question 2:
+a. In your own words what will this point to and why?parrent scope (global scope) and well print hello undefined because didnt have name in the global
+b. How can you fix this code? put timmy in the global :
+{
+    cont name="Timmy"
+    const myObj = {
+    greet: () => {
+     console.log(`Hello ${this.name}`);
+},
+};
+}
+
+const myObj = {
+name: "Timmy",
+greet: () => {
+console.log(`Hello ${this.name}`);
+},
+};
+myObj.greet();
+
+myFuncDec inside the function
+
+
+Question 3:
+In your own words what will this point to and why? global window because its not in object
+const myFuncDec = function () {
+console.log(this);
+};
+
+
+
+
+
+
+Question 4:
+In your own words what will this point to and why?//h=global 
+const myFuncArrow = () => {
+console.log(this);
+};
+myFuncArrow();
+
+
+
+
+
+
+
+
+Question 5:
+a. In your own words, what will this point to and why?global
+b. How can you fix this code?change arrow function to regular function
+
+document.querySelector(".element").addEventListener(() => {
+console.log(this);
+}); 
